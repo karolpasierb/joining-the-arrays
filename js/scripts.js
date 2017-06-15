@@ -12,7 +12,7 @@ poprzez instrukcję warunkową upewniam się, że nowe imię znajdzie się w tab
 gdy nie ma go tu jeszcze, a więc, gdy "indexOfNewName" równa się "-1" i wtenczas uruchamiam funkcję "push"
 */
 if (indexOfNewName === -1) {
-	allNames[8] = newName;
+	allNames.push(newName);
 }
 //wyświetlam połączoną tablicę z ewentualnym dodaniem nowego imienia
 console.log(allNames);
